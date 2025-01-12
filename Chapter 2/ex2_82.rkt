@@ -312,4 +312,4 @@
 (display (add 1 2 3 4 (make-rational 10 1) 1 2))
 
 ;; If the operation supports a third type and there is coercion available from the given types to that
-;; type but it isn't available in third type then apply generic will fail.
+;; type but if the third type isn't available in the list of typed argument then apply generic will fail.
